@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Wisuda Sarjana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            overflow: hidden;
+            text-align: center;
+            padding: 40px 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .icon-toga {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #1e3c72;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #f39c12;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .name {
+            font-size: 22px;
+            color: #333333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 15px;
+        }
+        .message {
+            color: #666666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .footer {
+            font-size: 13px;
+            color: #999999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon-toga">🎓</div>
+        <h1>Selamat & Sukses</h1>
+        <div class="subtitle">Atas Gelar Sarjana Anda!</div>
+        
+        <div class="name">
+            <strong>[Nama Wisudawan, S.Kom.]</strong>
+        </div>
+        
+        <p class="message">
+            Semoga ilmu yang diperoleh selama masa kuliah menjadi berkah, bermanfaat bagi masyarakat, serta menjadi langkah awal kesuksesan untuk menggapai masa depan yang gemilang.
+        </p>
+        
+        <div class="footer">
+            Dari: [Nama Anda / Keluarga Besar]
+        </div>
+    </div>
+
+</body>
+</html>
